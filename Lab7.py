@@ -253,7 +253,7 @@ def Depth_First_SearchR(path,AL,current,end,visited):
             pat = Depth_First_SearchR(path+p,AL,AL[current][i],end,visited)
             if pat:
                 return pat            
-    return ('Path to end of the maze not possible')
+    return ''
 #------------------------------------------------------------------------------
    
 plt.close("all") 
